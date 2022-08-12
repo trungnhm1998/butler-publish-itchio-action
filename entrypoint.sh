@@ -15,3 +15,5 @@ fi
 
 echo "butler push \"$PACKAGE\" $ITCH_USER/$ITCH_GAME:$CHANNEL ${versionArgument}"
 butler push "$PACKAGE" $ITCH_USER/$ITCH_GAME:$CHANNEL ${versionArgument}
+
+butler status $ITCH_USER/$ITCH_GAME:$CHANNEL ${versionArgument}
